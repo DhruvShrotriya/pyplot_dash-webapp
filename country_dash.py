@@ -4,7 +4,7 @@ import pandas as pd
 
 url = "https://raw.githubusercontent.com/plotly/datasets/master/2014_world_gdp_with_codes.csv"
 df = pd.read_csv(url)
-app = dash.Dash(__name__)
+app = Dash(__name__)
 server = app.server
 # Define the layout of the app
 app.layout = html.Div(children=[
