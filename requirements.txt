@@ -1,3 +1,5 @@
-dash==2.6.0
+dash==2.15.0
 pandas
 gunicorn
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.0.3 # not directly required, pinned by Snyk to avoid a vulnerability
